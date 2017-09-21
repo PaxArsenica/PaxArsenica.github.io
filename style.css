@@ -5,7 +5,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     color: #7f8c8d;
-    background-color: #fefefe;
+    background-color: #274B70;
     margin-top: 2em;
 }
 
@@ -37,7 +37,11 @@ h1, h2, h3 {
 }
 
 a {
-    color: #7f8c8d;
+    color: #D0A058;
+}
+
+a:hover {
+
 }
 
 img {
@@ -47,14 +51,15 @@ img {
 }
 
 #intro {
-    font-size: 4em;
+    font-size: 2em;
+    border-bottom: solid #7f8c8d 5px;
+    color: #D0A058;
 }
 
 #about {
     text-align: center;
 }
 
-#fancy {
-    color: #9DE79C;
-    text-decoration: underline;
+p {
+    color: #D0A058;
 }
